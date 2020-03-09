@@ -1,5 +1,5 @@
-# create_order
-This has the micro service code for creating orders and shipments
+# create Customer
+This has the micro service code for creating customers
 
 The following files have been included 
 1. Dockerfile - Use this to build your docker image for create_order micro service
