@@ -11,9 +11,9 @@ def create_customer(customer_name, customer_add, customer_ph):
     customer_ph = customer_ph
     max_cust_id = 0
     
-    cnx2=mysql.connector.connect(user='admin', password='Welcome1',
-                              host='customerdb.ceklihwabawd.us-east-1.rds.amazonaws.com',
-                              database='cust_order_db')
+    cnx2=mysql.connector.connect(user='xxxx', password='xxxx',
+                              host='<your database host name>',
+                              database='<your database name>')
     
     cursor2=cnx2.cursor()
     query = ("Select max(cust_id) from customer_details")
