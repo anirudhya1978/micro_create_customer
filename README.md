@@ -1,10 +1,10 @@
-# create Customer
+# Create Customer
 This has the micro service code for creating customers
 
 The following files have been included 
 1. Dockerfile - Use this to build your docker image for create_order micro service
 
-2. Create_customer.html - This is to check if the database your code is working. You have to change the post end point to make it work 
+2. Create_customer.html - This is to check if the database your code is working. You have to change the post end point to make it work. You can use this to build a load generator for the application using JMeter or some other tool 
 
 3. creare_customer.py - This has the code and logic for the creating customers. You have to change the database host, dbname and crednetials
 
@@ -15,6 +15,5 @@ The following files have been included
 6. newrelic.ini - You will have to change the key to include your own New Relic license key. 
 
 7. requirements.txt - has all the python libraries that are required for the code to run
-
 
 
